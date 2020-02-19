@@ -9,5 +9,5 @@ A Parent sequence can access child's methods directly. One way for child to acce
 
 ![Parent-Child](block_diagram.JPG)
 
-In the given example, run the parent.py. It sends a message to the child (directly by accessing its method). In response, the child sends an event.
+In the given example, run the parent.py. It sends a message to the child by accessing its method directly. In response, the child sends an event.
 The EventHandler dispatches the event to all listeners. Since Parent listens to that event, it receives the response.
